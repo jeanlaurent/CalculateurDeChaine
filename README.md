@@ -29,3 +29,6 @@ Si vous en êtes ici, et que vous avez déjà passer le cap de la demi-heure, vo
 6. Les délimiteurs peuvent avoir n'importe quelle longueur et plus juste un seul caractere. par exemple `//[***]\n1***2***3` doit donner 6.
 7. Proposez plusieurs délimiteurs : `//[delim1][delim2]\n` par exemple `//[*][%]\n1*2%3` doit retourner 6.
   * Vérifiez bien que vous pouvez utilisez des délimiteurs plus long qu'un seul caractere.
+
+
+-- exercice original par Roy Osherove, traduit et légérement adapté par mes soins.
