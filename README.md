@@ -3,14 +3,15 @@
 ## Avant de commencer 
 
  * Ne lis pas le texte à l'avance
- * Focus, fais une tâche aprés l'autre. Un des apprentissage est de savoir travailler de manière trés incrémentale.
+ * Focus !!, fais une tâche aprés l'autre. Un des apprentissage est de savoir travailler de manière trés incrémentale.
  * Dans cet exercice, ne cherche pas à corriger les entrée invalide. Seul compte les entrées valides.
+ * Le but est de s'entrainer, résoudre l'exercice n'est pas une fin en soit, ni le finir dans des temps records.
 
 ## Enoncé
 
 1. Creer un calculateur a base de chaine en entrée, par exemple avec une méthode `int Add(String numbers)`
   * La méthode peut prendre 0, 1 ou 2 nombres et retourne leur somme.
-    * vous pouvez avoir en entrée des choses comme : "", "1" ou "1,2"
+    * vous pouvez avoir en entrée des choses comme : `""`, `"1"` ou `"1,2"`
     * Si on vous passe une chaine vide vous retournez 0
   * Commencez avec un test sur une chaine vide, puis ajoutez la complexité graduellement, 1 chiffre, puis 2 etc...
   * La difficulté et d'écrire les bons tests, un bon moyen d'y arrivé et de se forcé à faire les choses le plus simple possible, afin de découvrir des tests auxquels on ne pensait pas.
