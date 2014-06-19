@@ -6,7 +6,7 @@
  * Focus, fais une tâche aprés l'autre. Un des apprentissage est de savoir travailler de manière trés incrémentale.
  * Dans cet exercice, ne cherche pas à corriger les entrée invalide. Seul compte les entrées valides.
 
-## CalculateurDeChaine
+## Enoncé
 
 1. Creer un calculateur a base de chaine en entrée, par exemple avec une méthode `int Add(String numbers)`
   * La méthode peut prendre 0, 1 ou 2 nombres et retourne leur somme.
@@ -23,9 +23,9 @@
   * Pour changer un délimiteur, au démarrage de la chaine on l'indique comme suis : `//[delimiteur]\n[nombres]` par exemple `//;\n1;2` doit donner comme somme 3 avec un delimiteur par défaut qui est `;`.
   * Oh, la ligne de définition d'un délimiteur est optionelle, les scénarios précédents doivent toujours fonctionner.
 
-Si vous en êtes ici, et que vous avez déjà passer le cap de la demi-heure, vous pouvez vous arretez. Sinon vous pouvez continuez :
+Si vous en êtes ici, et que vous avez déjà passer le cap de la demi-heure, vous pouvez vous arreter. Sinon vous pouvez continuez :
 
 5. Les nombres plus grand que 1000 sont ignorés, par exemple ajouter 2 à 1001 donne 2.
 6. Les délimiteurs peuvent avoir n'importe quelle longueur et plus juste un seul caractere. par exemple `//[***]\n1***2***3` doit donner 6.
-7. Proposez plusieurs délimiteurs : `//[delim1][delim2]\n` par exemple ``//[*][%]\n1*2%3` doit retourner 6.
+7. Proposez plusieurs délimiteurs : `//[delim1][delim2]\n` par exemple `//[*][%]\n1*2%3` doit retourner 6.
   * Vérifiez bien que vous pouvez utilisez des délimiteurs plus long qu'un seul caractere.
